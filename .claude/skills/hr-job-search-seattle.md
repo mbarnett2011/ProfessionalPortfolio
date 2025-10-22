@@ -49,6 +49,14 @@ Search for Human Resources positions in the Greater Seattle/Tacoma/Bellevue Area
 - B.A. Hospitality Business Management, Washington State University
 - Certification: SHRM-CP
 
+## Search Constraints
+
+**IMPORTANT - Apply these filters to ALL search results:**
+
+1. **EXCLUDE Amazon** - Do not include any positions at Amazon or Amazon subsidiaries
+2. **Recency Filter** - ONLY consider jobs posted within the last 2 weeks (14 days)
+3. **Prioritization** - Sort results with newest postings first
+
 ## Your Task
 
 When this skill is invoked, perform the following:
@@ -59,14 +67,18 @@ When this skill is invoked, perform the following:
    - Location: Seattle, Tacoma, Bellevue, Greater Seattle Area, King County, Pierce County
    - Salary range: $100,000 - $150,000 base annual salary
    - Search multiple job boards: LinkedIn Jobs, Indeed, Glassdoor, company career pages
+   - **REQUIRED**: Include posting date in all searches
+   - **REQUIRED**: Use search filters for "posted within 2 weeks" or "last 14 days"
 
 2. **Search Query Strategy**
    - Use queries like:
-     - "Senior HR Business Partner Seattle $100k-$150k"
-     - "HR Director Greater Seattle Area salary 100000-150000"
-     - "Human Resources Manager Bellevue Tacoma jobs"
-     - "Regional HR Director Seattle 2025"
-   - Search for recent postings (within last 30 days if possible)
+     - "Senior HR Business Partner Seattle $100k-$150k posted last week"
+     - "HR Director Greater Seattle Area salary 100000-150000 recent"
+     - "Human Resources Manager Bellevue Tacoma jobs October 2025"
+     - "Regional HR Director Seattle hiring now"
+   - **MUST** search for postings within last 2 weeks only
+   - Add date qualifiers: "posted this week", "last 7 days", "last 14 days", "October 2025"
+   - Exclude Amazon from all searches by adding "-Amazon" to queries
 
 3. **Analyze Job Fit**
    For each job found, evaluate:
@@ -77,12 +89,15 @@ When this skill is invoked, perform the following:
    - **Growth Opportunity**: Does it offer strategic partnership with leadership?
 
 4. **Present Results**
+   **CRITICAL**: Sort all results by posting date (newest first)
+
    Format each job listing as:
    ```
    ### [Job Title] at [Company]
    **Location:** [City, State]
    **Salary Range:** [If disclosed]
-   **Posted:** [Date if available]
+   **Posted:** [REQUIRED - Exact date, e.g., "October 20, 2025" or "3 days ago"]
+   **Days Since Posted:** [Calculate this - must be ≤14 days]
 
    **Match Score:** X/10
 
@@ -100,6 +115,11 @@ When this skill is invoked, perform the following:
    - [Specific advice on how to position Michael's experience for this role]
    ```
 
+   **Before presenting results:**
+   - Verify each position was posted within last 14 days
+   - Exclude any Amazon positions
+   - Order by posting date (newest to oldest)
+
 5. **Additional Recommendations**
    - Identify any gaps or skills Michael should emphasize
    - Suggest networking opportunities or companies to target
@@ -108,13 +128,16 @@ When this skill is invoked, perform the following:
 ## Search Focus Areas
 
 Target companies and industries where Michael's experience is most valuable:
-- **Tech Companies**: Growing HR needs, data-driven culture
-- **Hospitality & Travel**: Leveraging his Hyatt/Marriott background
-- **Retail & Consumer Goods**: Experience from Nike, multi-site operations
-- **Logistics & Operations**: FedEx Ground experience
-- **Outdoor/Lifestyle Brands**: Recent Elevate Outdoor Collective experience
-- **Healthcare**: Growing sector in Seattle area
-- **Professional Services**: Consulting, finance, legal firms
+- **Tech Companies**: Microsoft, Meta, Google, Salesforce, Adobe, smaller tech firms (Growing HR needs, data-driven culture)
+- **Hospitality & Travel**: Marriott, Hilton, Expedia Group (Leveraging his Hyatt/Marriott background)
+- **Retail & Consumer Goods**: REI, Costco, Nordstrom, Outdoor brands (Experience from Nike, multi-site operations)
+- **Logistics & Operations**: FedEx competitors, supply chain companies (FedEx Ground experience)
+- **Outdoor/Lifestyle Brands**: Patagonia, Arc'teryx, Brooks Running (Recent Elevate Outdoor Collective experience)
+- **Healthcare**: Providence, Kaiser Permanente, UW Medicine (Growing sector in Seattle area)
+- **Professional Services**: Deloitte, PwC, Accenture, consulting and finance firms
+
+**EXCLUDED COMPANIES:**
+- Amazon and all Amazon subsidiaries (per user request)
 
 ## Key Selling Points to Highlight
 
