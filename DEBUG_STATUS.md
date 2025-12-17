@@ -1,4 +1,4 @@
-# Debug Status: my-static-website
+# Debug Status: ProfessionalPortfolio
 
 ## Starting Status (Baseline)
 - Commit: `2f91ac7`

@@ -1,6 +1,8 @@
-# Michael Barnett Portfolio
+# Michael Barnett - Professional Portfolio
 
 A static portfolio website showcasing HR leadership experience and professional achievements.
+
+**Live Site:** https://mbarnett2011.github.io/ProfessionalPortfolio/
 
 ## Structure
 
@@ -24,4 +26,4 @@ python -m http.server 8000
 
 ## Deployment
 
-This site is configured for GitHub Pages (`.nojekyll` present).
+This site is deployed via GitHub Pages from the `main` branch.
