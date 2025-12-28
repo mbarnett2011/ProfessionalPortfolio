@@ -8,7 +8,7 @@
 
   // Configuration
   const CONFIG = {
-    apiUrl: 'http://209.38.116.95:8081', // Will change to HTTPS in production
+    apiUrl: 'https://api.hrthreadline.com', // HTTPS via Cloudflare
     initialMessage: "Hi! I'm an AI assistant that can tell you about Mike's professional background, experience, and qualifications. What would you like to know?",
     placeholderText: "Ask about Mike's experience...",
     welcomeDelay: 500
